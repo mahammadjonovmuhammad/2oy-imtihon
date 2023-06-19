@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+}
+.container {
+  background-image: url(../image/background-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .rigth {
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: flex;
+  background-color: rgb(20, 10, 10);
+}
+.container .left .left_text {
+  width: 520px;
+  height: 220px;
+}
+.container .left .left_text .left_h {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.container .left .left_text .left_h h1 {
+  font-size: 50px;
+  color: white;
+}
+.container .left .left_text .left_p {
+  width: 100%;
+}
+.container .left .left_text .left_p p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.container .right .right_text {
+  width: 470px;
+  height: 600px;
+  margin: 70px 100px 50px;
+  display: block;
+}
+.container .right .right_text .right_tex {
+  width: 100%;
+  height: 40px;
+  background-color: #5e54a4;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+.container .right .right_text .right_tex p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.container .right .right_text .menu {
+  width: 470px;
+  height: 530px;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+}
+.container .right .right_text .menu .input {
+  width: 450px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 15px 10px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.container .right .right_text .menu .inputs {
+  width: 450px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 50px 10px 10px 10px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.container .right .right_text .menu .menu_text {
+  width: 450px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 15px 10px;
+  background-color: #38cc8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.container .right .right_text .menu .menu_text h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.container .right .right_text .menu h4 {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+.container .right .right_text .menu .menu_text .menu_texts {
+  display: inline-block;
+  width: 100%;
+}
+.container .right .right_text .menu .input:hover {
+  border: 4px solid #5e54a4;
+}
+.container .right .right_text .menu .inputs:hover {
+  border: 4px solid #5e54a4;
+}
+.container .right .right_text .menu .menu_text:hover {
+  background-color: #61f0b2;
+}
+.container .left .left_text .left_h h1:hover {
+  text-decoration: solid;
+}
